@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #e2df98;
+    margin: 0 auto;
+}
+
+.header_title h1{
+   /* margin-top: 34px;*/
+    width: 500;
+    height: 46;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align:center;
+    text-transform: uppercase;
+    color: #F03B3B;
+    margin: 0 auto;
+    padding: 10px;
+}
+.header {
+
+}
+.nav{
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+}
+.nav a{
+margin-top: 60px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 24px;
+text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.section {
+width: 1480px;
+height: 765px;
+}
+.fish1, .fish2, .fish3 {
+    width: 290px;
+    height: 200px;
+   /* border-radius: 50%;*/
+    margin: 50px 45px 0px 100px;
+}
+.section_item1{
+    display: flex;
+}
+p{
+    margin-top: 40px;
+    width: 906px;
+    text-align: justify;
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+}
+img.hover{
+transform: rotate(20deg);
+}
